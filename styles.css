@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+#Container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#Presentacion-Container{
+    text-align: center;
+    width: 80%;
+    height: 60%;
+}
+#ListaDeTareasTITULO{
+    text-align:center;
+    color:#5f1180;
+    font-size: 5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+input[type="text"] {
+    padding: 8px;
+    width: 60rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+#nuevaTarea:hover{
+    border: 1px solid #ff0000;
+    transition: 1s;
+}
+button {
+    padding: 8px 15px;
+    background-color: #5f1180;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #98083f;
+    transition: 1s;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+    padding: 8px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+ }
+
+.completed{
+    text-decoration: line-through;
+    color: #fd0707;
+    background-color: #686767;
+}
+
+button.delete{
+    margin-left: auto;
+    background-color: rgb(62, 6, 247);
+}
+
+#Container_Opciones{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Contenedor_OPCION{
+    display: block;
+    text-align: center;
+}
